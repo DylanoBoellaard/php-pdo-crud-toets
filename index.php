@@ -7,6 +7,7 @@
     <title>php-pdo-crud-toets</title>
 </head>
 <body>
-    
+    <h3>De vijf duurste auto's ter wereld</h3>
+    <a href="read.php">DB Table</a>
 </body>
 </html>
