@@ -25,7 +25,7 @@ $sql = "SELECT Id
             ,Topsnelheid
             ,Prijs
         FROM Dureauto
-        ORDER BY Prijs ASC";
+        ORDER BY CONVERT((Prijs),SIGNED INTEGER) DESC;";
 
 $statement = $pdo->prepare($sql);
 
