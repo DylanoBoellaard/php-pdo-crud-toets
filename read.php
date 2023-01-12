@@ -55,17 +55,31 @@ foreach ($result as $info) {
 ?>
 
 <!-- Tabel zelf, wat te zien is op de pagina -->
-<a href="index.php"> Home Page</a>
-<h3>De vijf duurste auto's ter wereld</h3>
-<table border="1">
-    <thead>
-        <th>Merk</th>
-        <th>Model</th>
-        <th>Topsnelheid</th>
-        <th>Prijs</th>
-        <th>Delete</th>
-    </thead>
-    <tbody>
-        <?= $rows; ?>
-    </tbody>
-</table>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php-pdo-crud-toets</title>
+</head>
+<body>
+    <a href="index.php"> Home Page</a>
+    <h2>De vijf duurste auto's ter wereld</h2>
+    <table border="1">
+        <thead>
+            <th>Merk</th>
+            <th>Model</th>
+            <th>Topsnelheid</th>
+            <th>Prijs</th>
+            <th>Delete</th>
+        </thead>
+        <tbody>
+            <?= $rows; ?>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
