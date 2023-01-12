@@ -63,10 +63,12 @@ foreach ($result as $info) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>php-pdo-crud-toets</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <a href="index.php"> Home Page</a>
     <h2>De vijf duurste auto's ter wereld</h2>
+    <div class="container">
     <table border="1">
         <thead>
             <th>Merk</th>
@@ -79,6 +81,7 @@ foreach ($result as $info) {
             <?= $rows; ?>
         </tbody>
     </table>
+    </div>
 </body>
 </html>
 
